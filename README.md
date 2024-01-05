@@ -1,6 +1,18 @@
 #  Pydantic + Hydra for config and CLI management
 
-This Repo will show you how to easily create a CLI and config for your project with nice validation and a lot more!
+This Repo will show you how to simplify your project setup with:
+
+- Elegant CLI creation
+- Pydantic for powerful data validation
+- Colorful logs for enhanced visibility
+- Easy parameter overrides from the command line
+- Execute multiple job runs effortlessly
+- Track and record for each run
+
+And in this repo you will discover comprehensive guides:
+
+- Master Pydantic data validation with practical examples for DS & ML projects
+- Leverage Hydra for smooth experiment management in DS & ML projects
 
 ## Install
 
