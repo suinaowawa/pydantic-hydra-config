@@ -1,0 +1,14 @@
+data:
+  data_format: DB
+  input_path: requirements.txt
+  start_date: "2022-12-01"
+  window: 2
+model:
+  num_estimators: 150
+  max_depth: 7
+
+defaults:
+  - override /hydra/callbacks: experiment
+  - override hydra/hydra_logging: colorlog
+  # - override hydra/job_logging: colorlog
+  - override hydra/job_logging: logging_config
